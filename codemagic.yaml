@@ -4,7 +4,7 @@ workflows:
     max_build_duration: 120
     instance_type: mac_mini_m1
     integrations:
-      app_store_connect: NNNNNNN
+      app_store_connect: MyBook API
     environment:
       ios_signing:
         distribution_type: app_store
@@ -12,7 +12,7 @@ workflows:
       vars:
         BUNDLE_ID: "com.MyBookShelf"
         XCODE_SCHEME: "MyBookShelf"
-        APP_STORE_APPLE_ID: "0000000000"
+        APP_STORE_APPLE_ID: "6761006529"
       xcode: latest
     scripts:
       - name: Set up provisioning profiles settings on Xcode project
