@@ -8,9 +8,9 @@ workflows:
     environment:
       ios_signing:
         distribution_type: app_store
-        bundle_identifier: com.MyBookShelf
+        bundle_identifier: com.bookshelf.online
       vars:
-        BUNDLE_ID: "com.MyBookShelf"
+        BUNDLE_ID: "com.bookshelf.online"
         XCODE_SCHEME: "MyBookShelf"
         APP_STORE_APPLE_ID: 6761006529
       xcode: latest
