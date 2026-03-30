@@ -12,7 +12,7 @@ workflows:
       vars:
         BUNDLE_ID: "com.MyBookShelf"
         XCODE_SCHEME: "MyBookShelf"
-        APP_STORE_APPLE_ID: "6761006529"
+        APP_STORE_APPLE_ID: 6761006529
       xcode: latest
     scripts:
       - name: Set up provisioning profiles settings on Xcode project
